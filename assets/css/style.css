@@ -1,0 +1,77 @@
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    color: #C2DEDC;
+    text-decoration: none;
+    font-weight: 1000;
+}
+body{
+    background-color: #C2DEDC;
+}
+
+
+/* global classes */
+.center {
+    text-align: center;
+}
+
+
+
+
+
+
+/* custom styles */
+
+header,.contact-me{
+    background-color: #050505;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,h2{
+    background-color: #C2DEDC;
+    padding: 10px;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+header nav a:not(:last-child) {
+    margin-right: 25px;
+}
+
+/* figure image style */
+.image{
+    background-image: url("https://picsum.photos/1200/800");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* main body */
+.portfolio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* about me section */
+.About-me{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+/* my work section */
+.work{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+}
